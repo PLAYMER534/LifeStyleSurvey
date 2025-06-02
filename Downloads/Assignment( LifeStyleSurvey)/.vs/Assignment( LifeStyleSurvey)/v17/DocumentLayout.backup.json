@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|c:\\users\\frontdesk\\downloads\\assignment( lifestylesurvey)\\assignment( lifestylesurvey)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|solutionrelative:assignment( lifestylesurvey)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\assignment( lifestylesurvey)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|solutionrelative:assignment( lifestylesurvey)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|c:\\users\\frontdesk\\downloads\\assignment( lifestylesurvey)\\assignment( lifestylesurvey)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74F8CB9-C598-4AB3-8B20-77F71ABFBB21}|Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey).csproj|solutionrelative:assignment( lifestylesurvey)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment( LifeStyleSurvey)\\Program.cs",
+              "ToolTip": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Program.cs",
+              "RelativeToolTip": "Assignment( LifeStyleSurvey)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:06:53.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignment( LifeStyleSurvey)\\Form1.cs",
+              "ToolTip": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Form1.cs",
+              "RelativeToolTip": "Assignment( LifeStyleSurvey)\\Form1.cs",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAswIwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:26:57.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignment( LifeStyleSurvey)\\Form1.cs",
+              "ToolTip": "C:\\Users\\FRONTDESK\\Downloads\\Assignment( LifeStyleSurvey)\\Assignment( LifeStyleSurvey)\\Form1.cs [Design]",
+              "RelativeToolTip": "Assignment( LifeStyleSurvey)\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:24:07.21Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
