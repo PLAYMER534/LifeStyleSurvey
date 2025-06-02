@@ -13,8 +13,4 @@ LifeStyleSurvey is a data collection and analysis project designed to gather inf
 Make sure you have all required dependencies installed.  
 To run the project, follow these steps:
 
-```bash
-# Add your project-specific run commands here, for example:
-# Run the main script or open the project in your IDE
-# Example (replace with your actual commands):
-python main.py
+Open the project in visual studio and run it.
