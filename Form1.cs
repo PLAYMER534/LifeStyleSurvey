@@ -33,12 +33,27 @@ namespace Assignment__LifeStyleSurvey_
 
         private Button? btnSubmit, btnShowChart;
         private DataGridView? dgvResults;
+        private void ClearSurveyInputs()
+        {
+            foreach (Control ctrl in panelSurvey.Controls)
+            {
+                if (ctrl is TextBox tb)
+                    tb.Clear();
+                else if (ctrl is CheckBox cb)
+                    cb.Checked = false;
+                else if (ctrl is DateTimePicker dtp)
+                    dtp.Value = DateTime.Now;
+            }
+
+            // Also clear ratings (checkboxes in ratingTable)
+            for (int row = 0; row < ratingChecks!.GetLength(0); row++)
+                for (int col = 0; col < ratingChecks.GetLength(1); col++)
+                    ratingChecks[row, col].Checked = false;
+        }
 
         public Form1()
         {
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
-            this.TopMost = true;
+            
 
             InitializeComponent();
             InitializeDatabase();
@@ -223,6 +238,7 @@ namespace Assignment__LifeStyleSurvey_
             cmd.ExecuteNonQuery();
 
             MessageBox.Show("Survey submitted successfully!");
+            ClearSurveyInputs();
         }
 
 
