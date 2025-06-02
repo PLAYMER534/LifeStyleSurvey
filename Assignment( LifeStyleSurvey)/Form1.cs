@@ -356,26 +356,20 @@ namespace Assignment__LifeStyleSurvey_
 
         private bool ValidateRatings()
         {
-            for (int i = 0; i < statements.Length; i++)
+            for (int row = 0; row < statements.Length; row++)
             {
-                bool hasChecked = false;
-                for (int j = 0; j < 5; j++)
+                int checkedCount = 0;
+                for (int col = 0; col < 5; col++)
                 {
-                    if (ratingChecks[i, j].Checked)
-                    {
-                        hasChecked = true;
-                        break;
-                    }
+                    if (ratingChecks![row, col].Checked)
+                        checkedCount++;
                 }
-
-                if (!hasChecked)
-                {
-                    return false;
-                }
+                if (checkedCount != 1)
+                    return false; // invalid if not exactly one checked
             }
-
             return true;
         }
+
 
         private Label CreateLabel(string text, int x, int y) =>
             new Label
